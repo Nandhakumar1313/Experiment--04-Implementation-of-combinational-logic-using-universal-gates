@@ -33,17 +33,17 @@ The only difference between NOR gate design and NAND gate design is that the for
 
 F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 
-Procedure
+## Procedure
 Create a project with required entities.
 Create a module along with respective file name.
 Run the respective programs for the given boolean equations.
 Run the module and get the respective RTL outputs.
 Create university program(VWF) for getting timing diagram.
 Give the respective inputs for timing diagram and obtain the results.
-Program:
+## Program:
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
 
-COMBINATION 1 USING NAND GATE
+## COMBINATION 1 USING NAND GATE
 module combone(A,B,C,D,F);
 input A,B,C,D;
 output F;
@@ -54,7 +54,7 @@ assign R=(~(C & ~B & A));
 assign F=~(P & Q & R);
 endmodule
 
-COMBINATION 2 USING NOR GATE
+## COMBINATION 2 USING NOR GATE
 module combtwo(A,B,C,D,F);
 input A,B,C,D;
 output F;
@@ -66,32 +66,33 @@ assign S = (~(P | Q | R));
 assign F = (~s);
 endmodule 
 
-Output:
-COMBINATION 1:
-RTL realization:
+## Output:
+## COMBINATION 1:
+## RTL realization:
 ![211157437-16b088b7-accf-468e-8a80-7868d16912db](https://user-images.githubusercontent.com/120230694/232969465-14c9e693-67f6-41f6-a741-5b539dc1de14.png)
 
 
-Timing Diagram:
+## Timing Diagram:
 ![211157446-ad7b8560-55c1-45b6-a6b2-735efc7f1a60](https://user-images.githubusercontent.com/120230694/232969453-0956f817-9a8d-418d-affd-f70c8bf5e4bd.png)
 
 
-Truth Table:
+## Truth Table:
+![211162655-b33052f6-b805-4520-b784-18d258b54e96](https://user-images.githubusercontent.com/120230694/232971081-9470bc2c-ff97-44da-a64e-57f9c5f3d344.png)
 
 
-COMBINATION 2:
+## COMBINATION 2:
 RTL realization:
 ![211160189-75cc6000-ae61-4f72-a32b-04d20ba3bb6a](https://user-images.githubusercontent.com/120230694/232969400-2e90b145-3f6f-4e5b-b887-08bc6bab7788.png)
 
 
-Timing Diagram:
+## Timing Diagram:
 ![211162693-56338373-fcce-4cc3-814e-ca88e74b8ffd](https://user-images.githubusercontent.com/120230694/232969378-d94b9e64-5281-4494-92a1-f23843018e3d.png)
 
 
-Truth Table:
+## Truth Table:
 ![211162664-5f406fba-3204-441a-a687-6ce3244fafc6](https://user-images.githubusercontent.com/120230694/232969320-44dd3a6c-25d2-4841-919d-aafd4dee49ee.png)
 
 
 
-Result:
+## Result:
 Thus the given logic functions are implemented using NAND and NOR gates and their operations are verified using Verilog programming.
