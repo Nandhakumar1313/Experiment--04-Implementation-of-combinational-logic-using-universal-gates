@@ -74,13 +74,15 @@ endmodule
 ![de1](https://github.com/Nandhakumar1313/Experiment--04-Implementation-of-combinational-logic-using-universal-gates/assets/120230694/706d09cd-5d77-48a4-880c-7b62b533e007)
 
 ## Timing Diagram For F1
-![de](https://github.com/Nandhakumar1313/Experiment--04-Implementation-of-combinational-logic-using-universal-gates/assets/120230694/69c68c37-dc65-4252-991d-ea124ba65620)
+![243156755-804e2710-e610-4bd2-b14e-8b208082f604](https://github.com/Nandhakumar1313/Experiment--04-Implementation-of-combinational-logic-using-universal-gates/assets/120230694/31390ff1-baa7-4758-bcf3-4f10d32f15aa)
+
 
 ## For F2
 ![kk](https://github.com/Nandhakumar1313/Experiment--04-Implementation-of-combinational-logic-using-universal-gates/assets/120230694/195be91e-8b01-4239-ba00-0115fe2bb07e)
 
 ## Timing Diagram For F2
-![237874331-0fa16d6e-e4ff-43e2-be8e-bc2d1d6d8b3f](https://github.com/Nandhakumar1313/Experiment--04-Implementation-of-combinational-logic-using-universal-gates/assets/120230694/37ab8b95-e837-4b49-982f-4894aba68829)
+![243156766-f47bcd88-719f-4785-9f29-681bb9757ca5](https://github.com/Nandhakumar1313/Experiment--04-Implementation-of-combinational-logic-using-universal-gates/assets/120230694/a9ca8281-5ebc-422e-b6d4-e59f07434f84)
+
 
 
 ## Result:
